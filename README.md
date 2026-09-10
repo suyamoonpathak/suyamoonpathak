@@ -1,14 +1,14 @@
 # Suyamoon Pathak
 
-**AI/ML Engineer — agentic LLM systems, and the kernel underneath them.**
+**AI/ML Engineer: Agentic LLM systems, and the kernel underneath them.**
 
 I build production AI systems, then optimize them down to the operating system. Most AI work
-stops at the API call; I've spent three years on both ends of that stack — shipping enterprise
+stops at the API call; I've spent three years on both ends of that stack, shipping enterprise
 agentic RAG platforms, and patching Linux ext4/JBD2 for a 27% faster journaling path.
 
 Currently **Lead AI Engineer at Cortekz Technologies (UK)**, owning an agentic AI platform
 end to end: architecture, evaluation, infrastructure, security, and release.
-**MTech, Computer Science — IIT Kanpur.** Published at **SemEval-2025 (ACL)**.
+**MTech, Computer Science from IIT Kanpur.** Published at **SemEval-2025 (ACL)**.
 
 ---
 
