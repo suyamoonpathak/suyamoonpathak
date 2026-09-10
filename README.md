@@ -1,99 +1,45 @@
-<h1 align="center" style="color:#d4a373">Hi 👋, I'm Suyamoon</h1>
-<h3 align="center" style="color:#faedcd">A guy who loves building things in his little virtual world :)</h3>
-<p align="center" style="color:#e9edc9; font-size:18px;"> I love automating things with machines. Right now, I am focusing on ML, Cognition, and scaling my apps to a larger audience. </p>
+# Suyamoon Pathak
 
-<h3 align="left" style="color:#d4a373">Education:</h3>
-<ul style="color:#e9edc9; font-size:16px;">
-  <li>M.Tech Computer Science & Engineering, IIT Kanpur (2024-2026)</li>
-  <li>B.S. Data Science & Applications, IIT Madras (2021-2025)</li>
-  <li>B.Tech Computer Science & Engineering, PDEU Gujarat (2020-2024)</li>
-</ul>
+**AI/ML Engineer — agentic LLM systems, and the kernel underneath them.**
 
-<h3 align="left" style="color:#d4a373">Work Experience:</h3>
-<ul style="color:#e9edc9; font-size:16px;">
-  <li><strong>Delta-V Analytics:</strong> Enhanced Predictive Maintenance of Satellite Systems using Physics Informed Neural Networks (PINNs).</li>
-  <li><strong>OpsHub Inc.:</strong> Developed job scheduling feature for integrating and migrating tickets between ALM apps (Jira, Rally, etc).</li>
-</ul>
+I build production AI systems, then optimize them down to the operating system. Most AI work
+stops at the API call; I've spent three years on both ends of that stack — shipping enterprise
+agentic RAG platforms, and patching Linux ext4/JBD2 for a 27% faster journaling path.
 
-<h3 align="left" style="color:#d4a373">Get in Touch:</h3>
-<ul style="color:#ccd5ae; font-size:16px;">
-  <li>📧 Reach me at <strong style="color:#faedcd">suyamoonpathak@gmail.com</strong></li>
-  <li>🔐 Check out my experiences and projects in my <a href="https://github.com/suyamoonpathak/resume/blob/master/Resume_DS_after_second_Sem_at_IITK.pdf" style="color:#d4a373">resume</a></li>
-  <li>📝 I write about technology, insights, and more on <a href="https://medium.com/@suyamoonpathak" style="color:#d4a373">medium.com/@suyamoonpathak</a></li>
-</ul>
+Currently **Lead AI Engineer at Cortekz Technologies (UK)**, owning an agentic AI platform
+end to end: architecture, evaluation, infrastructure, security, and release.
+**MTech, Computer Science — IIT Kanpur.** Published at **SemEval-2025 (ACL)**.
 
-<h3 align="left" style="color:#d4a373">
-  Our Team: <img src="webifo.png" alt="Webifo Logo" width="10%" height="18px" style="margin-right:10px;">
-</h3>
-<p style="color:#e9edc9; font-size:16px;">
-  At <strong style="color:#faedcd;">Webifo</strong>, we are a group of passionate developers, designers, and thinkers working together to build intuitive and impactful software solutions.
-  Check out more at <a href="https://www.webifo.com" target="_blank" rel="noopener noreferrer" style="color:#d4a373;">webifo.com</a>
-</p>
+---
 
+### Selected work
 
+| Project | What it is | Result |
+|---|---|---|
+| [ext4/JBD2 Kernel Optimization](https://github.com/suyamoonpathak/lkp_optimization) | Two C patches to Linux 6.1.4 closing ext4 fast-commit fallback gaps | **64× fewer** JBD2 full commits, **27%** faster (48% on bare-metal SSD) |
+| [Legal Argumentation Mining](https://github.com/suyamoonpathak/ArgumentationMining) | MTech thesis — argument clause/component/relation mining in legal text | F1 **0.80 / 0.86 / 0.94**, generalizes Demosthenes → ECHR |
+| [Emotion Detection (SemEval-2025)](https://github.com/suyamoonpathak/text-based-emotion-detection-semeval-2025-task-11) | Multilabel emotion classification, Task 11 Track A | Macro-F1 **0.7344** — [published in ACL Anthology](https://aclanthology.org/2025.semeval-1.243/) |
+| [Mechanistic Interpretability of OPT-125M](https://github.com/suyamoonpathak/Mechanistic-Interpretability-of-facebook-opt-125m-with-TransformerLens) | Full architectural dissection with TransformerLens | Forward pass reconstructed and verified at 7 hook stages |
+| [Team-Trak](https://www.teamtrak.app/) | Workforce platform — QR+GPS attendance, payroll, Stripe billing | Live product, built at Webifo |
 
-<h3 align="left" style="color:#d4a373">Socials:</h3>
-<p align="left">
-    <a href="https://linkedin.com/in/suyamoonpathak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="suyamoonpathak" height="30" width="40" /></a>
-  <a href="https://twitter.com/suyamoonpathak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="suyamoonpathak" height="30" width="40" /></a>
-  <a href="https://medium.com/@suyamoonpathak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="medium" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/suyamoonpathak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="leetcode" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left" style="color:#d4a373">Programming Languages:</h3>
-    <div style="display: flex; gap: 20px;">
-        <a href="https://www.python.org" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
-        </a>
-        <a href="https://www.java.com" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" />
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
-        </a>
-    </div>
+### What I work with
 
-<h3 align="left" style="color:#d4a373">Frameworks and Libraries:</h3>
-    <div style="display: flex; gap: 20px;">
-        <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40" />
-        </a>
-        <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
-          <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40" />
-        </a>
-        <a href="https://spring.io/" target="_blank" rel="noreferrer">
-          <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40" />
-        </a>
-        <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
-        </a>
-        <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40" />
-        </a>
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
-        </a>
-    </div>
+**LLMs & agents** — RAG, GraphRAG, LightRAG, MCP, LangGraph, multi-agent orchestration,
+tool calling, LLM routing, evaluation (RAGAS/DeepEval), prompt-injection guardrails
+**Retrieval** — pgvector, Neo4j, FAISS, BM25 + cross-encoder reranking
+**Systems** — Linux kernel, ext4/JBD2, C, CUDA, kernel profiling, Docker
+**ML** — PyTorch, Transformers, PEFT (LoRA/QLoRA/QA-LoRA), GRPO/DPO, vLLM, Unsloth
+**Backend** — Python, FastAPI, Node.js, Celery, PostgreSQL, MongoDB, Redis, Azure DevOps
 
-<h3 align="left" style="color:#d4a373">Databases and Other Tools:</h3>
-    <div style="display: flex; gap: 10px;">
-        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
-        </a>
-        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
-        </a>
-        <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40" />
-        </a>
-        <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" />
-        </a>
-        <a href="https://redis.io/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40" />
-        </a>
-    </div>
+---
 
+### Publications
 
-<h3 align="left" style="color:#d4a373">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/suyamoon"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="suyamoon" style="border:2px solid #faedcd; border-radius:8px;"/></a></p>
+- **Pathak, S.** et al. *Text-Based Emotion Detection.* SemEval-2025 Task 11, **ACL Anthology** — [paper](https://aclanthology.org/2025.semeval-1.243/)
+- **Pathak, S.**, Thakkar, H. K., & Sabale, K. *AI-Enabled IoMT Frameworks for Automated Health Diagnosis.* Ch. 7, *Health 5.0*, **Taylor & Francis**
+
+---
+
+Los Angeles, CA · [suyamoon@suyamoonpathak.com](mailto:suyamoon@suyamoonpathak.com) · [LinkedIn](https://www.linkedin.com/in/suyamoonpathak)
